@@ -29,9 +29,9 @@ h1 {
 #results {
         font-size: 0.9em;
         overflow: auto; /*scrollbars if needed */
-        /*how to size this so fills to bottom?*/
+        /*how to size this so fills to bottom but no further?*/
         min-height: 5px;
-        max-height: 400px;
+        max-height: 350px;
     }
 
 #about {
