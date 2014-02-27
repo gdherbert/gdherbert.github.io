@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Grant Herbert">
+    
+    <title>Maps page</title>
+    
+    <link rel="stylesheet" href="maps.css" type="text/css"/>
+    
+    <script type="text/javascript">
+        function changeImage(imgPath, imgAlt) {
+            var el = document.getElementById("imgDiv");
+            el.getElementsByTagName("img")[0].src = imgPath;
+            el.getElementsByTagName("img")[0].alt = imgAlt;
+            el.getElementsByTagName("a")[0].href = imgPath;
+        }
+    </script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+            <a href="#" onclick="changeImage('GISJobMap_20x30_final_2160x1440.jpg', 'GIS Jobs Map');">GIS Jobs</a>
+            </li>
+            
+        </ul>
+    </nav>
+    <hr>
+    <div id="imgDiv">
+        <a href="GISJobMap_20x30_final_2160x1440.jpg"><img alt="GIS Jobs Map" src="GISJobMap_20x30_final_2160x1440.jpg" title="Click to view image directly, use the back button in browser to return here"></img></a>
+    </div>
+    
+</body>
+
+</html>
