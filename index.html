@@ -4,35 +4,48 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Grant Herbert">
+    <meta name="description" content="">
     
-    <title>gdherbert</title>
+    <title>Portfolio</title>
+    
+    <link rel="stylesheet" href="style.css" />
     
 </head>
 <body>
-<h2>Portfolio and static page hosting for Grant Herbert</h2>
-<p>This is a simple portfolio of web pages and maps that I have created (and can host here). Follow the links to the appropriate page.</p>
-<h2>WebPages</h2>
-<h3>Interactive Campus Map</h3>
-<p> In Spring 2013 I was working on developing an Interactive Campus Map as part of GEOG790. 
-This involved learning JavaScript, Leaflet and OpenStreetMap. 
-Campus buildings and features were added to OpenStreetMap as part of this project, and the MapQuest Nominatum API and Overpass API were used to access the OSM data.
-For this project we primarily used the <a href="http://jquery.com/">JQuery</a> and <a href="http://leafletjs.com/">Leaflet</a> libraries.
-</p> 
-<a href="ICM\index.html">Open the Interactive campus map.</a>
-<hr>
+    <div id="header" class="panel">
+        <h2>Portfolio and static page hosting</h2>
+        <p>This is a simple portfolio of web pages and maps (well, those that I can host here on GitHub anyway). It is very much a work in progress so please forgive the basic styling. I will be adding content as I am able to!</p>
+    </div>
+    <div id="pages">
+        <div id="webPages" class="panel">
+            <h2>WebPages</h2>
+            <h3>Interactive Campus Map</h3>
+            <p> In Spring 2013 I was working on developing an Interactive Campus Map as part of GEOG790. 
+            This involved learning JavaScript, Leaflet and OpenStreetMap. 
+            Campus buildings and features were added to OpenStreetMap as part of this project, and the MapQuest Nominatum API and Overpass API were used to access the OSM data.
+            For this project we primarily used the <a href="http://jquery.com/">JQuery</a> and <a href="http://leafletjs.com/">Leaflet</a> libraries.
+            </p> 
+            <a href="ICM\index.html">Open the Interactive campus map.</a>
+            <hr>
+        </div>
+        <div id="portfolio" class="panel">
+            <h2>Maps</h2>
 
-<h2>Maps</h2>
-
-<h3>GIS Jobs Map</h3>
-<p> In Spring 2013 I took the GEOG567 course at NIU, creating a map using Adobe Illustrator. 
-We had to incorporate some GIS layers, I used city and climate data along with major interstates and state boundaries. 
-I also used this shaded relief from <a href="http://www.shadedrelief.com/physical/pages/download.html">Shadedrelief.com</a> as a background. 
-The project involved a lot of digitizing in Illustrator, in fact almost everything other than the relief map!
-</p> 
-<a href="Maps\index.html">Open the GIS Jobs Map.</a>
-<hr>
-<h3>Other Links</h3>
-<p>Contact me via <a href="http://www.linkedin.com/in/gdherbert/">LinkedIn</a></p>
-<p>My <a href="https://github.com/gdherbert">GitHub repositories</a></p>
+            <h3>GIS Jobs Map</h3>
+            <p> In Spring 2013 I took the GEOG567 course at NIU, creating a map using Adobe Illustrator. 
+            We had to incorporate some GIS layers, I used city and climate data along with major interstates and state boundaries. 
+            I also used this shaded relief from <a href="http://www.shadedrelief.com/physical/pages/download.html">Shadedrelief.com</a> as a background. 
+            The project involved a lot of digitizing in Illustrator, in fact almost everything other than the relief map!
+            </p> 
+            <a href="Maps\index.html">Open the GIS Jobs Map.</a>
+        </div>
+        <div id="about" class="panel">
+            <h3>About Me:</h3>
+            <p>I am  GIS Analyst, busily learning web development, web mapping and JavaScript coding.
+            </p>
+            <p>Contact me via <a href="http://www.linkedin.com/in/gdherbert/">LinkedIn</a></p>
+            <p>My <a href="https://github.com/gdherbert">GitHub repositories</a></p>
+        </div>
+    </div>
 </body>
 </html>
