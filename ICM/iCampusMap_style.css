@@ -67,7 +67,7 @@ h1 {
         left: 0;
         margin: 10px;
         margin-top: 0;
-        height: 360px;
+        height: 300px;
 }
 .navbar {        
         position: absolute;
@@ -78,7 +78,7 @@ h1 {
         background-color: white;
         height: 100%;
         z-index: 100;
-        padding-top: 365px;
+        padding-top: 300px; /* has to match innernav*/
     }
 .smallText {
         font-size: 0.6em;

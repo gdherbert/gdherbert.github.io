@@ -1,5 +1,5 @@
 html, body {
-    background: gray;
+    background: white;
     font-family: Verdana,Arial,sans-serif;
     font-size: 1em;
     height: 100%;
@@ -13,10 +13,10 @@ h1 {
 h2 {
         font-size: 1.6em;
 }
-h31 {
+h3 {
         font-size: 1.3em;
 }
-.panel {
+div.project {
     background: white;
     background: rgba(255,255,255,0.8);
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
@@ -26,6 +26,53 @@ h31 {
     margin-right: auto;
     margin-top: 10px;
     padding: 10px;
+}
+span.project{
+    display:inline;
+}
+img.project {
+	width: 200px;
+    max-height: 200px;
+}
+h2.project{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+h3.project{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    letter-spacing: 2px;
+    font-weight: 200;
+}
+span.project {
+    display: table-cell;
+    vertical-align: top;
+    padding-left: 20px;
+    padding-right: 40px;
+    text-align: justify;
+}
+span.projectImage {
+}
+span.projectDescription {
+    padding-right: 40px;
+    padding-top: 5px;
+}
+a.project {
+    text-decoration: none;
+    color: black;
+}
+a.link {
+    text-decoration: underline;
+    color: black;
+}
+a.project:hover {
+    color: blue;
+}
+p.project {
+    margin-top: 0px;
+    padding-top: 0px;
 }
 #header {
     margin-top: 0px;
